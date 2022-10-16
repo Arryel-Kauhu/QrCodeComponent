@@ -1,0 +1,45 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+body { 
+  /*font-family: Outfit;*/
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.qrcode-box {
+  position: absolute;
+  max-width: 265px;
+  height: 470px;
+  background-color: white;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 15px 15px;
+
+}
+.qrcode-box img {
+  width: 265px;
+  border-radius: 15px;
+
+ }
+
+#description {
+  color: hsl(218, 44%, 22%);  
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+
+}
+#qrcodemessage {
+  color: hsl(219, 15%, 55%);
+  text-align: center;
+  font-size: 15px;
+  padding: 5px 5px;
+}
+
